@@ -34,7 +34,8 @@ La premisa de esta aplicación es proporcionar una herramienta fácil de usar pa
 
 ## Capturas de Pantalla 📸
 
-_Inserta aquí capturas de pantalla de la aplicación en diferentes dispositivos y condiciones climáticas._
+![Descripción de la imagen](movil1.png)
+
 
 ## Agradecimientos 🙌
 
