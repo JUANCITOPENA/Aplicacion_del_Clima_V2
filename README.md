@@ -35,7 +35,7 @@ La premisa de esta aplicación es proporcionar una herramienta fácil de usar pa
 ## Capturas de Pantalla 📸
 
 ![Descripción de la imagen](movil1.png)
-![Descripción de la imagen](movil2.png
+![Descripción de la imagen](movil2.png)
 ![Descripción de la imagen](Screenshot_35.png)
 ![Descripción de la imagen](Screenshot_36.png)
 ![Descripción de la imagen](Screenshot_37.png)
