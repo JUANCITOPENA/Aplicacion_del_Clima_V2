@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener Temperatura</title>
+
+    <head>
+        <!-- Otros elementos head -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Consulta el Clima</h1>
+
+        <!-- Input para ingresar la ciudad -->
+        <input type="text" id="inputCiudad" placeholder="Ingresa la ciudad">
+
+        <select id="selectCiudades" onchange="actualizarCiudadSeleccionada()">
+            <option value="">Selecciona una ciudad</option>
+
+            <!-- Ciudades de América -->
+            <optgroup label="América">
+                <option value="New York">Nueva York, EE. UU.</option>
+                <option value="Los Angeles">Los Ángeles, EE. UU.</option>
+                <option value="Toronto">Toronto, Canadá</option>
+                <option value="São Paulo">São Paulo, Brasil</option>
+                <!-- Agregar más ciudades de América aquí -->
+            </optgroup>
+
+            <!-- Ciudades de Europa -->
+            <optgroup label="Europa">
+                <option value="London">Londres, Reino Unido</option>
+                <option value="Paris">París, Francia</option>
+                <option value="Berlin">Berlín, Alemania</option>
+                <option value="Rome">Roma, Italia</option>
+                <!-- Agregar más ciudades de Europa aquí -->
+            </optgroup>
+
+            <!-- Ciudades de Asia -->
+            <optgroup label="Asia">
+                <option value="Tokyo">Tokio, Japón</option>
+                <option value="Shanghai">Shanghái, China</option>
+                <option value="Seoul">Seúl, Corea del Sur</option>
+                <option value="Mumbai">Bombay (Mumbai), India</option>
+                <!-- Agregar más ciudades de Asia aquí -->
+            </optgroup>
+
+            <!-- Ciudades de África -->
+            <optgroup label="África">
+                <option value="Cairo">El Cairo, Egipto</option>
+                <option value="Nairobi">Nairobi, Kenia</option>
+                <option value="Johannesburg">Johannesburgo, Sudáfrica</option>
+                <option value="Casablanca">Casablanca, Marruecos</option>
+                <!-- Agregar más ciudades de África aquí -->
+            </optgroup>
+
+            <!-- Ciudades de Oceanía -->
+            <optgroup label="Oceanía">
+                <option value="Sydney">Sídney, Australia</option>
+                <option value="Auckland">Auckland, Nueva Zelanda</option>
+                <option value="Melbourne">Melbourne, Australia</option>
+                <option value="Brisbane">Brisbane, Australia</option>
+                <!-- Agregar más ciudades de Oceanía aquí -->
+
+                <!-- Ciudades de Republica Dominicana -->
+            <optgroup label="Región del Cibao">
+                <option value="Santiago de los Caballeros">Santiago de los Caballeros</option>
+                <option value="Santo Domingo">Santo Domingo Norte</option>
+                <option value="Santo Domingo">Santo Domingo Oeste</option>
+                <option value="Santo Domingo Este">Santo Domingo Este</option>
+                <option value="San Francisco de Macorís">San Francisco de Macorís</option>
+                <option value="La Vega">La Vega</option>
+                <option value="San Cristóbal">San Cristóbal</option>
+                <option value="Moca">Moca</option>
+                <option value="Bonao">Bonao</option>
+                <!-- Agregar más ciudades de Región del Cibao -->
+            </optgroup>
+
+            <optgroup label="Región del Sur">
+                <option value="San Juan de la Maguana">San Juan de la Maguana</option>
+                <option value="Barahona">Barahona</option>
+                <option value="Azua">Azua</option>
+                <option value="Bani">Baní</option>
+                <option value="Pedernales">Pedernales</option>
+
+                <!-- Agregar más ciudades de Región del Sur -->
+            </optgroup>
+
+            <optgroup label="Región del Este">
+                <option value="Higüey">Higüey</option>
+                <option value="La Romana">La Romana</option>
+                <option value="San Pedro de Macorís">San Pedro de Macorís</option>
+                <option value="Hato Mayor">Hato Mayor</option>
+                <option value="El Seibo">El Seibo</option>
+                <!-- Agregar más ciudades de Región del Este -->
+            </optgroup>
+
+            <optgroup label="Región del Norte">
+                <option value="Puerto Plata">Puerto Plata</option>
+                <option value="Samaná">Samaná</option>
+                <option value="Nagua">Nagua</option>
+                <option value="MonteCristi">Monte Cristi</option>
+                <option value="Mao">Mao</option>
+                <!-- Agregar más ciudades de Región del Norte-->
+            </optgroup>
+
+            <optgroup label="Región del Noroeste">
+                <option value="Dajabón">Dajabón</option>
+                <option value="Valverde">Valverde</option>
+                <option value="Montecristi">Montecristi</option>
+            </optgroup>
+            <!-- Agregar más ciudades de Región del Noroeste -->
+
+        </select>
+        <!-- Botón para obtener la temperatura -->
+        <button onclick="obtenerTemperatura()" id="botonVerClima">Ver Clima</button>
+
+
+
+        <!-- Elemento para mostrar la información del clima -->
+        <p id="infoClima"></p>
+
+        <br> <!-- Salto de línea -->
+        <!-- Párrafo con clase "js" que contiene iconos de JavaScript y código -->
+        <p class="js">
+            <i class="fab fa-js-square"></i> <!-- Icono de JavaScript -->
+            Creado con JavaScript puro <!-- Texto indicando que fue creado con JavaScript puro -->
+            <i class="fas fa-laptop-code"></i> <!-- Icono de laptop/code -->
+        </p>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
