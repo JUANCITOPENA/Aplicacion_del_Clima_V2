@@ -46,6 +46,16 @@ La premisa de esta aplicación es proporcionar una herramienta fácil de usar pa
 
 La aplicación utiliza la API de OpenWeatherMap, agradecemos su servicio y apoyo.
 
+## Clonar o Descargar 🚀
+
+Puedes clonar este repositorio ejecutando el siguiente comando en tu terminal:
+
+```bash
+git clone https://github.com/JUANCITOPENA/Aplicacion_del_Clima_V2
 ---
+
+## Licencia 📝
+
+Este proyecto está bajo la Licencia MIT.
 
 ¡Gracias por utilizar ClimaApp! Siéntete libre de contribuir, informar errores o mejorar esta aplicación. 🌟
