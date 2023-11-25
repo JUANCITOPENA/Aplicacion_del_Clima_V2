@@ -3,7 +3,7 @@ function obtenerTemperatura() {
     const ciudad = document.getElementById('inputCiudad').value || document.getElementById('selectCiudades').value;
 
     // Clave de la API para acceder a los datos climáticos
-    const api_key = '12e717669f6d0f7358f106ac8ab9528b';
+    const api_key = 'TU API KEY AQUI';
 
     // URL para hacer la solicitud a la API del clima usando la ciudad y la clave de la API
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${api_key}&units=metric`;
